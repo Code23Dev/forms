@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-drawer-inner-container {
+    width: 300px !important;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(184, 182, 182);
+    
+}
+.mat-drawer-container {
+    background-color: white !important;
+    color: rgba(0,0,0,.87);
+}
+.mat-form-field {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: .4375em 0;
+    border: 1px solid rgb(123, 123, 123);
+}
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: white;
+    border: 1px solid #aaa;
+}
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+    background-color: blue;
+}
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-checkbox-checked.mat-accent .mat-checkbox-background:hover{
+    background-color: blue;
+}
